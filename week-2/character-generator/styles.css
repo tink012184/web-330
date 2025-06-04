@@ -3,9 +3,79 @@
   Chapter 1
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author:Melissa Lutz
+  Date:6/3/2025
+  Filename:styles.css
 */
 
 /* Your CSS goes here */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #5a088b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+h1 {
+  color: #df2ff3;
+}
+
+form {
+  background-color: #291e35;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #b99ac5;
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.25em;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 1.5em;
+  width: 100%;
+  padding: 0.75em;
+  background-color: #b99ac5;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #df2ff3;
+}
+
+#characterOutput {
+  margin-top: 2em;
+  background-color: #291e35;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #b99ac5;
+  width: 100%;
+  max-width: 400px;
+  display: none;
+  text-align: center;
+}
+
+#characterOutput p {
+  margin: 0.5em 0;
+}
